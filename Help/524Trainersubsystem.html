@@ -1,0 +1,1029 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="generator" content="HelpNDoc Personal Edition 7.6.0.479">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico"/>
+
+  <title>5.2.4. Trainer sub system</title>
+  <meta name="description" content="" /> 
+  <meta name="keywords" content="">
+
+
+
+  
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="5.2.4. Trainer sub system">
+  <meta name="twitter:description" content="">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="5.2.4. Trainer sub system" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="FICS HELP MENU" /> 
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendors/bootstrap-3.4.1/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <link href="vendors/bootstrap-3.4.1/css/ie10-viewport-bug-workaround.css" rel="stylesheet"/>
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="vendors/html5shiv-3.7.3/html5shiv.min.js"></script>
+      <script src="vendors/respond-1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <!-- JsTree styles -->
+  <link href="vendors/jstree-3.3.10/themes/default/style.min.css" rel="stylesheet"/>
+
+  <!-- Hnd styles -->
+  <link href="css/layout.min.css" rel="stylesheet" />
+  <link href="css/effects.min.css" rel="stylesheet" />
+  <link href="css/theme-light-blue.min.css" rel="stylesheet" />
+  <link href="css/print.min.css" rel="stylesheet" media="print" />
+  <style type="text/css">nav { width: 350px} @media screen and (min-width:769px) { body.md-nav-expanded div#main { margin-left: 350px} body.md-nav-expanded header { padding-left: 364px} }</style>
+
+  <!-- Content style -->
+  <link href="css/hnd.content.css" rel="stylesheet" />
+
+  
+
+
+
+</head>
+
+<body class="md-nav-expanded">
+
+
+
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible">Skip to main content</a>
+  </div>
+
+  <header class="headroom">
+    <button class="hnd-toggle btn btn-default">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>        
+    </button>
+    <h1>FICS HELP MENU</h1>
+    
+  </header>
+
+  <nav id="panel-left" class="md-nav-expanded">
+    <!-- Nav tabs -->
+    <ul class="tab-tabs nav nav-tabs" role="tablist">
+      <li id="nav-close"> 
+        <button class="hnd-toggle btn btn-default">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        </button>
+      </li>
+      
+	  
+        <li role="presentation" class="tab active">
+            <a href="#contents" id="tab-contents" aria-controls="contents" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-list"></i>
+                Contents
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#index" id="tab-index" aria-controls="index" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-asterisk"></i>
+                Index
+            </a>
+        </li>
+      
+        <li role="presentation" class="tab">
+            <a href="#search" id="tab-search" aria-controls="search" role="tab" data-toggle="tab">
+                <i class="glyphicon glyphicon-search"></i>
+                Search
+            </a>
+        </li>
+      
+    </ul>  <!-- /Nav tabs -->
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+	  
+      <div role="tabpanel" class="tab-pane active" id="contents">
+        <div id="toc" class="tree-container unselectable"
+            data-url="_toc.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /contents-->
+      
+      <div role="tabpanel" class="tab-pane" id="index">
+        <div id="keywords" class="tree-container unselectable"
+            data-url="_keywords.json"
+            data-openlvl="1"
+        >
+            
+        </div>
+      </div>  <!-- /index-->
+      
+      <div role="tabpanel" class="tab-pane" id="search">
+        <div class="search-content">
+          <div class="search-input">
+            <form id="search-form">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="input-search" name="input-search" placeholder="Search..." />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>  <!-- /search-input -->
+          <div class="search-result">
+            <div id="search-info"></div>
+            <div class="tree-container unselectable" id="search-tree"></div>
+          </div>  <!-- /search-result -->
+        </div>  <!-- /search-content -->
+      </div>  <!-- /search-->
+      
+    </div>  <!-- /Tab panes -->
+
+  </nav>
+
+  <div id="main">
+
+    <article>
+        <div id="topic-content" class="container-fluid" 
+		  data-hnd-id="524Trainersubsystem"
+		  data-hnd-context="28"
+		  data-hnd-title="5.2.4. Trainer sub system"
+		>
+            
+                <div class="navigation">
+                    <ol class="breadcrumb">
+                        <li><a href="5UserFunctionalityFICSManagement.html">5. User Functionality: FICS Management System</a></li>
+                    </ol>
+                    <div class="nav-arrows">
+                        <div class="btn-group btn-group" role="group"><a class="btn btn-default" href="5UserFunctionalityFICSManagement.html" title="5. User Functionality: FICS Management System" role="button"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span></a><a class="btn btn-default" href="523Clientsubsystem.html" title="5.2.3. Client sub system" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></a><a class="btn btn-default" href="525Practitionersubsystem.html" title="5.2.5. Practitioner sub system" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                    </div>
+                </div> 
+            
+
+            <a id="main-content"></a>
+
+            <h2>5.2.4. Trainer sub system</h2>
+
+            <div class="main-content">
+                
+<p class="rvps2"><span class="rvts30">Trainer Registration</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Description: </span><span class="rvts46">This page describes the instance when a user requests to be a trainee by entering details into a registration form and submitting their request. The user will be added to the database pending approval. If they are accepted, they will get access to the system.</span></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Navigation Process: &nbsp;</span><span class="rvts46">The user will have to click on the </span><span class="rvts47">“Trainer”</span><span class="rvts46"> sign-up button. Once they have clicked this button, they will be shown the registration form.</span></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Screen Layout</span><span class="rvts46">: </span><img width="687" height="342" alt="" style="padding : 1px;" src="lib/NewItem304.png"></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts50">Detailed description of controls:</span></li>
+</ul>
+<div class="rvps10">
+<table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Reference</span></p>
+  </td>
+  <td width="193" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Control</span></p>
+  </td>
+  <td width="218" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Functionality Description</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">1</span></p>
+  </td>
+  <td width="193" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Name Textbox</span></p>
+  </td>
+  <td width="218" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This textbox allows the user to enter their first name into the registration form.</span></p>
+   <p class="rvps25"><img width="581" height="300" alt="" style="padding : 1px;" src="lib/NewItem303.png"></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">2</span></p>
+  </td>
+  <td width="193" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Surname Textbox</span></p>
+  </td>
+  <td width="218" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This textbox allows the user to enter their surname into the registration form.</span></p>
+   <p class="rvps25"><img width="563" height="283" alt="" style="padding : 1px;" src="lib/NewItem302.png"></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">3</span></p>
+  </td>
+  <td width="193" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Title Dropdown</span></p>
+  </td>
+  <td width="218" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This dropdown allows the user to select a title that will be used to refer to the user.</span></p>
+   <p class="rvps25"><img width="563" height="230" alt="" style="padding : 1px;" src="lib/NewItem301.png"></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">4</span></p>
+  </td>
+  <td width="193" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Physical Address Textbox</span></p>
+  </td>
+  <td width="218" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This textbox allows the user to enter their physical address into the registration form.</span></p>
+   <p class="rvps25"><img width="616" height="247" alt="" style="padding : 1px;" src="lib/NewItem300.png"></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">5</span></p>
+  </td>
+  <td width="193" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Contact Number Textbox</span></p>
+  </td>
+  <td width="218" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This textbox allows the user to enter a contact number into the registration form.</span></p>
+   <p class="rvps25"><img width="616" height="265" alt="" style="padding : 1px;" src="lib/NewItem299.png"></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">6</span></p>
+  </td>
+  <td width="193" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Email Address Textbox</span></p>
+  </td>
+  <td width="218" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This textbox allows the user to enter an email address into the registration form, this will be used as the username.</span></p>
+   <p class="rvps25"><img width="589" height="290" alt="" style="padding : 1px;" src="lib/NewItem298.png"></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">7</span></p>
+  </td>
+  <td width="193" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">ID Number Text Box</span></p>
+  </td>
+  <td width="218" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This textbox allows the user to enter their ID number into the registration form.</span></p>
+   <p class="rvps25"><img width="595" height="287" alt="" style="padding : 1px;" src="lib/NewItem297.png"></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">8</span></p>
+  </td>
+  <td width="193" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Gender Dropdown</span></p>
+  </td>
+  <td width="218" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This dropdown allows the user to select a gender they are comfortable with.</span></p>
+   <p class="rvps25"><img width="595" height="291" alt="" style="padding : 1px;" src="lib/NewItem296.png"></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">9</span></p>
+  </td>
+  <td width="193" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Password Textbox</span></p>
+  </td>
+  <td width="218" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This allows the user to select a password which will be used to log into the system from registering.</span></p>
+   <p class="rvps25"><img width="601" height="295" alt="" style="padding : 1px;" src="lib/NewItem295.png"></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">10</span></p>
+  </td>
+  <td width="193" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Confirm Password Textbox</span></p>
+  </td>
+  <td width="218" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This textbox will prompt the user to confirm the password they have selected.</span></p>
+   <p class="rvps25"><img width="592" height="297" alt="" style="padding : 1px;" src="lib/NewItem294.png"></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">11</span></p>
+  </td>
+  <td width="193" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Apply Button</span></p>
+  </td>
+  <td width="218" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This button will allow the user to register. The fields will validate and will save to the database, and the user will become registered.</span></p>
+   <p class="rvps25"><img width="634" height="300" alt="" style="padding : 1px;" src="lib/NewItem293.png"></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">12</span></p>
+  </td>
+  <td width="193" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Cancel Button</span></p>
+  </td>
+  <td width="218" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This button will cancel the registration and will return the user to the home page.</span></p>
+   <p class="rvps25"><img width="616" height="318" alt="" style="padding : 1px;" src="lib/NewItem292.png"></p>
+  </td>
+ </tr>
+</table>
+</div>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 52px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps27"><span class="rvts45">Possible Error Messages:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps33"><span class="rvts45">Invalid email address, please enter a valid email address.&nbsp;</span></li>
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps33"><span class="rvts45">A character was added in the phone number text box, please enter numbers only.</span></li>
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps33"><span class="rvts45">A JPG file was not selected, please select a JPG file only.</span></li>
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps33"><span class="rvts45">Not all required fields were filled out, please fill out all required fields.</span></li>
+ </ul>
+</ul>
+<p class="rvps33"><span class="rvts45"><br/></span></p>
+<p class="rvps33"><span class="rvts45"><br/></span></p>
+<p class="rvps2"><span class="rvts30">&nbsp;Maintain Profile Details</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Description: </span><span class="rvts46">This page describes the instance where an accepted trainer desires to maintain their profile details. This entails entering details into the original registration form, by changing the desired detail in the desired field. They will then submit the changes and they will be added to the database.</span></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Navigation Process: &nbsp;</span><span class="rvts46">This will open when the </span><span class="rvts47">“Profile” Card</span><span class="rvts46"> is selected in the “Trainer Dashboard”. This can also be done using the </span><span class="rvts47">“Maintain Profile” button</span><span class="rvts46"> on the navigation panel on the left-hand side of the “Trainer Dashboard”.</span></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Screen Layout</span><span class="rvts46">: </span><img width="590" height="343" alt="" style="padding : 1px;" src="lib/NewItem319.png"></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Detailed description of controls:</span></li>
+</ul>
+<div class="rvps10">
+<table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Reference</span></p>
+  </td>
+  <td width="174" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Control</span></p>
+  </td>
+  <td width="237" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Functionality Description</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">1</span></p>
+  </td>
+  <td width="174" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Header</span></p>
+  </td>
+  <td width="237" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This is used as an identifier for the user to be able to know what screen they are on.</span></p>
+   <p class="rvps25"><img width="590" height="351" alt="" style="padding : 1px;" src="lib/NewItem318.png"></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">2</span></p>
+  </td>
+  <td width="174" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Title Text Box</span></p>
+  </td>
+  <td width="237" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This text box allows the user to input a title which they are comfortable to use.</span></p>
+   <p class="rvps25"><img width="590" height="266" alt="" style="padding : 1px;" src="lib/NewItem317.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">3</span></p>
+  </td>
+  <td width="174" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">First Name Text Box</span></p>
+  </td>
+  <td width="237" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This text box allows the user to enter their first name to change their details on the database.</span></p>
+   <p class="rvps25"><img width="605" height="257" alt="" style="padding : 1px;" src="lib/NewItem316.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">4</span></p>
+  </td>
+  <td width="174" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Last Name Text Box</span></p>
+  </td>
+  <td width="237" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This text box allows the user to enter their last name to change their details on the database.</span></p>
+   <p class="rvps25"><img width="605" height="317" alt="" style="padding : 1px;" src="lib/NewItem315.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">5</span></p>
+  </td>
+  <td width="174" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Phone Number Text Box</span></p>
+  </td>
+  <td width="237" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This text box allows the user to enter their phone number to update their details on the database.</span></p>
+   <p class="rvps25"><img width="605" height="249" alt="" style="padding : 1px;" src="lib/NewItem314.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">6</span></p>
+  </td>
+  <td width="174" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Email Text Box</span></p>
+  </td>
+  <td width="237" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This text box allows the user to enter their email address to update their details on the database.</span></p>
+   <p class="rvps25"><img width="605" height="257" alt="" style="padding : 1px;" src="lib/NewItem313.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">7</span></p>
+  </td>
+  <td width="174" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">ID Number Text Box</span></p>
+  </td>
+  <td width="237" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This cannot be changed; this text box is blacked out as it is not standard for users to be able to change their ID number.</span></p>
+   <p class="rvps25"><img width="605" height="266" alt="" style="padding : 1px;" src="lib/NewItem312.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">8</span></p>
+  </td>
+  <td width="174" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Gender Dropdown</span></p>
+  </td>
+  <td width="237" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This dropdown contains a list of genders that the user can use to change their gender on the database.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="605" height="266" alt="" style="padding : 1px;" src="lib/NewItem311.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">9</span></p>
+  </td>
+  <td width="174" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Passport Number Text Box</span></p>
+  </td>
+  <td width="237" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This text box allows the user to change their passport number on the database.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="590" height="317" alt="" style="padding : 1px;" src="lib/NewItem310.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">10</span></p>
+  </td>
+  <td width="174" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Country Dropdown</span></p>
+  </td>
+  <td width="237" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This allows the user to select a country where they are currently located.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="605" height="283" alt="" style="padding : 1px;" src="lib/NewItem309.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">11</span></p>
+  </td>
+  <td width="174" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Save Changes Button</span></p>
+  </td>
+  <td width="237" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This means the database is updated with all the current details found in the text boxes and dropdowns.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="605" height="317" alt="" style="padding : 1px;" src="lib/NewItem308.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">12</span></p>
+  </td>
+  <td width="174" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Save Marketing Preferences Button</span></p>
+  </td>
+  <td width="237" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This will save the status of marketing preferences making use of the POPI act.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="384" height="266" alt="" style="padding : 1px;" src="lib/NewItem307.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">13</span></p>
+  </td>
+  <td width="174" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Marketing Radio Button</span></p>
+  </td>
+  <td width="237" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This will allow the user to change their marketing preferences and will update in the database.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="458" height="326" alt="" style="padding : 1px;" src="lib/NewItem306.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="97" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">14</span></p>
+  </td>
+  <td width="174" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Profile Picture</span></p>
+  </td>
+  <td width="237" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This will allow the user to upload a new profile picture. Clicking on this will open the File Dialog and the user will be prompted to select a JPG file. This is then added to the database.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="517" height="291" alt="" style="padding : 1px;" src="lib/NewItem305.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps25"><span class="rvts44"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 52px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps27"><span class="rvts45">Possible Error Messages:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps33"><span class="rvts45">Invalid email address, please enter a valid email address.&nbsp;</span></li>
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps33"><span class="rvts45">A character was added in the phone number text box, please enter numbers only.</span></li>
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps33"><span class="rvts45">A JPG file was not selected, please select a JPG file only.</span></li>
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps33"><span class="rvts45">Not all required fields were filled out, please fill out all required fields.</span></li>
+ </ul>
+</ul>
+<p class="rvps33"><span class="rvts45"><br/></span></p>
+<p class="rvps33"><span class="rvts45"><br/></span></p>
+<p class="rvps2"><span class="rvts56"><br/></span></p>
+<p class="rvps28"><span class="rvts45"><br/></span></p>
+<p class="rvps2"><span class="rvts30">&nbsp;Set Availability</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Description: </span><span class="rvts46">This page describes the instance where a trainer will be able to select slots in which they would like to make themselves available for sessions. The Trainer will select a specific date, they will then be prompted to select times on the day at which they would like to be available. They will then be prompted to confirm they would like to set their availability for the specified sessions.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Navigation Process: &nbsp;</span><span class="rvts46">The user will view this screen by clicking on the </span><span class="rvts47">“Set Availability” Card</span><span class="rvts46"> on the “Trainer Dashboard”.</span></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Screen Layout</span><span class="rvts46">: </span><img width="562" height="321" alt="" style="padding : 1px;" src="lib/NewItem489.png"></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Detailed description of controls:</span></li>
+</ul>
+<div class="rvps10">
+<table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+ <tr valign="top">
+  <td width="78" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Reference</span></p>
+  </td>
+  <td width="212" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Control</span></p>
+  </td>
+  <td width="314" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Functionality Description</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="78" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">1</span></p>
+  </td>
+  <td width="212" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Calendar View</span></p>
+  </td>
+  <td width="314" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This calendar view shows all the dates that the Trainer can select to set their availability. The circled date is the current date.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="532" height="347" alt="" style="padding : 1px;" src="lib/NewItem488.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="78" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">2</span></p>
+  </td>
+  <td width="212" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Choose Slot Button</span></p>
+  </td>
+  <td width="314" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">The desired slots are to be selected using these buttons. Multiple can be chosen.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="680" height="389" alt="" style="padding : 1px;" src="lib/NewItem487.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="78" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">3</span></p>
+  </td>
+  <td width="212" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Confirm Button</span></p>
+  </td>
+  <td width="314" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">The selected date and time slot will be validated. The selected slots will then be added to the database and will display to the trainee that the trainer is associated to.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="650" height="338" alt="" style="padding : 1px;" src="lib/NewItem486.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="78" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">4</span></p>
+  </td>
+  <td width="212" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Cancel Button.</span></p>
+  </td>
+  <td width="314" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This button will cancel the entire operation and will return the user to the main dashboard.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="488" height="398" alt="" style="padding : 1px;" src="lib/NewItem485.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps25"><span class="rvts44"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 52px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps27"><span class="rvts45">Possible Error Messages:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps33"><span class="rvts45">This slot has already been selected, please select a different slot.</span></li>
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps33"><span class="rvts45">No slot has been selected, please select a slot before confirming.</span></li>
+ </ul>
+</ul>
+<p class="rvps28"><span class="rvts45"><br/></span></p>
+<p class="rvps28"><span class="rvts44"><br/></span></p>
+<p class="rvps2"><span class="rvts30">Send Tasks</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Description: </span><span class="rvts46">This describes how a Trainer will send a task to the Trainee. The trainer will view a list of trainees assigned to them and then they will click on the </span><span class="rvts47">“Assign Task” Button</span><span class="rvts46">. It will display a popup in which the Trainer must enter task details as well as a due date using the </span><span class="rvts47">“Calendar”</span><span class="rvts46">. They will then send the task to the trainee by clicking the </span><span class="rvts47">“Send Task” Button</span><span class="rvts46">.&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Navigation Process: </span><span class="rvts46">The user will view this screen by clicking on the </span><span class="rvts47">“Send Task” Card</span><span class="rvts46"> on the Trainer Dashboard.</span></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Screen Layout</span><span class="rvts46">: </span><img width="585" height="200" alt="" style="padding : 1px;" src="lib/NewItem501.png"></li>
+</ul>
+<p class="rvps25"><img width="555" height="320" alt="" style="padding : 1px;" src="lib/NewItem500.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Detailed description of controls:</span></li>
+</ul>
+<div class="rvps10">
+<table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+ <tr valign="top">
+  <td width="78" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Reference</span></p>
+  </td>
+  <td width="250" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Control</span></p>
+  </td>
+  <td width="276" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Functionality Description</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="78" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">1</span></p>
+  </td>
+  <td width="250" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Assign Task Button</span></p>
+  </td>
+  <td width="276" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This button will take the user to the second screen, where a task can be assigned to the trainee.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="480" height="195" alt="" style="padding : 1px;" src="lib/NewItem499.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="78" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">2</span></p>
+  </td>
+  <td width="250" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Choose File Button</span></p>
+  </td>
+  <td width="276" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This button will open the file dialog, in which the user can select a file to upload to be given to the trainee.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="555" height="320" alt="" style="padding : 1px;" src="lib/NewItem498.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="78" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">3</span></p>
+  </td>
+  <td width="250" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Task Textbox</span></p>
+  </td>
+  <td width="276" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This textbox can be used to give task details to a trainee if the user chooses to not upload a file. This will be displayed to the trainee in a table.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="555" height="303" alt="" style="padding : 1px;" src="lib/NewItem497.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="78" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">4</span></p>
+  </td>
+  <td width="250" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Date Picker</span></p>
+  </td>
+  <td width="276" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This date picker will allow the user to select a due date for the task. It will open the calendar and will prompt the user to select a date that it must be completed by.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="555" height="277" alt="" style="padding : 1px;" src="lib/NewItem496.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps25"><span class="rvts44"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 52px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps27"><span class="rvts45">Possible Error Messages:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps33"><span class="rvts45">No task has been assigned, please enter valid task details before you can send a task.</span></li>
+ </ul>
+</ul>
+<p class="rvps28"><span class="rvts45"><br/></span></p>
+<p class="rvps2"><span class="rvts30">Send Feedback</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Description: </span><span class="rvts46">This screen describes the process in which a Trainer will send feedback to the Trainee. A list of tasks needing feedback will be presented to the user, they will select the task by clicking the </span><span class="rvts47">“Give Feedback” Button</span><span class="rvts46">. A popup will be displayed with a textbox. To submit the feedback the user will enter the feedback and click on the </span><span class="rvts47">“Submit” Button</span><span class="rvts46">.</span></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Navigation Process: &nbsp;</span><span class="rvts46">The user will view this screen by clicking on the </span><span class="rvts47">“Send Task” Card</span><span class="rvts46"> on the Trainer Dashboard.</span></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Screen Layout</span><span class="rvts46">: </span><img width="542" height="156" alt="" style="padding : 1px;" src="lib/NewItem495.png"></li>
+</ul>
+<p class="rvps25"><img width="226" height="131" alt="" style="padding : 1px;" src="lib/NewItem494.png"></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Detailed description of controls:</span></li>
+</ul>
+<div class="rvps10">
+<table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+ <tr valign="top">
+  <td width="88" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Reference</span></p>
+  </td>
+  <td width="250" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Control</span></p>
+  </td>
+  <td width="267" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Functionality Description</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="88" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">1</span></p>
+  </td>
+  <td width="250" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Give Feedback Button</span></p>
+  </td>
+  <td width="267" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This button will allow the user to give feedback to the trainee with regards to a specific task. This button will open the popup which will prompt the user to send feedback.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="553" height="147" alt="" style="padding : 1px;" src="lib/NewItem493.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="88" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">2</span></p>
+  </td>
+  <td width="250" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Need Help Button</span></p>
+  </td>
+  <td width="267" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This button will display a help screen.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="477" height="156" alt="" style="padding : 1px;" src="lib/NewItem492.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="88" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">3</span></p>
+  </td>
+  <td width="250" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Feedback Textbox</span></p>
+  </td>
+  <td width="267" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This textbox will allow the user to send feedback with regards to a selected task.&nbsp;</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="226" height="125" alt="" style="padding : 1px;" src="lib/NewItem491.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="88" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">4</span></p>
+  </td>
+  <td width="250" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Submit Button</span></p>
+  </td>
+  <td width="267" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This button will save the feedback in the database, and it will be sent to the trainee.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="221" height="131" alt="" style="padding : 1px;" src="lib/NewItem490.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps25"><span class="rvts44"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 52px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps27"><span class="rvts45">Possible Error Messages:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps33"><span class="rvts45">No feedback provided, please enter feedback before submitting.</span></li>
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps33"><span class="rvts45">No tasks have been completed, please wait for the Trainee to complete a task.</span></li>
+ </ul>
+</ul>
+<p class="rvps28"><span class="rvts45"><br/></span></p>
+<p class="rvps28"><span class="rvts44"><br/></span></p>
+<p class="rvps28"><span class="rvts44"><br/></span></p>
+<p class="rvps2"><span class="rvts30">&nbsp;View Trainer Schedule</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Description: </span><span class="rvts46">This allows the Trainer to view their schedule, based on what bookings have been booked by their trainees.</span></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Navigation Process: &nbsp;</span><span class="rvts46">The Trainer will click on the </span><span class="rvts47">“My Schedule” Card </span><span class="rvts46">on the “Trainer Dashboard” to view this screen.</span></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Screen Layout</span><span class="rvts46">: </span><img width="579" height="126" alt="" style="padding : 1px;" src="lib/NewItem503.png"></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Detailed description of controls:</span></li>
+</ul>
+<div class="rvps10">
+<table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+ <tr valign="top">
+  <td width="78" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Reference</span></p>
+  </td>
+  <td width="240" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Control</span></p>
+  </td>
+  <td width="285" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Functionality Description</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="78" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps26"><span class="rvts46">1</span></p>
+  </td>
+  <td width="240" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">Reschedule Availability Button</span></p>
+  </td>
+  <td width="285" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">This button will allow the user to reschedule their availability. This button will take the user to the “Set Availability” screen for the availability to be rescheduled.</span></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+   <p class="rvps25"><img width="565" height="120" alt="" style="padding : 1px;" src="lib/NewItem502.png"></p>
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps25"><span class="rvts44"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 52px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps27"><span class="rvts45">Possible Error Messages:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps33"><span class="rvts45">No sessions have been booked.</span></li>
+ </ul>
+</ul>
+<p class="rvps28"><span class="rvts45"><br/></span></p>
+<p class="rvps2"><span class="rvts30">View Trainee Questionnaire Results</span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;">
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Description: </span><span class="rvts46">The user will be able to view the questionnaire results of the trainees they train. A list of names will be displayed, and the results will be able to be viewed by clicking the </span><span class="rvts47">“View” Button.</span><span class="rvts46">&nbsp;</span></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Navigation Process: &nbsp;</span><span class="rvts46">The Trainer will click on the </span><span class="rvts47">“View Trainee Questionnaire” Card</span><span class="rvts46"> to view this screen.</span></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Screen Layout</span><span class="rvts46">: No screen</span></li>
+ <li style="text-indent: 0px" class="rvps24"><span class="rvts45">Detailed description of controls:</span></li>
+</ul>
+<div class="rvps10">
+<table border="1" cellpadding="4" cellspacing="-1" style="border-width: 0px; border-collapse: collapse;">
+ <tr valign="top">
+  <td width="217" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Reference</span></p>
+  </td>
+  <td width="217" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Control</span></p>
+  </td>
+  <td width="217" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px; background-color: #0070c0;">
+   <p class="rvps26"><span class="rvts48">Functionality Description</span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="217" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46">1</span></p>
+  </td>
+  <td width="217" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+  <td width="217" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+ <tr valign="top">
+  <td width="217" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+  <td width="217" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+  <td width="217" valign="top" style="border-width : 1px; border-color: #000000; border-style: solid; padding: 0px 7px;">
+   <p class="rvps25"><span class="rvts46"><br/></span></p>
+  </td>
+ </tr>
+</table>
+</div>
+<p class="rvps25"><span class="rvts44"><br/></span></p>
+<ul style="text-indent: 0px; padding: 0; margin: 0 0 0 52px; list-style-position: outside; list-style-type: disc;">
+ <li style="margin-left: 0px; text-indent: 0px" class="rvps27"><span class="rvts45">Possible Error Messages:</span></li>
+ <ul style="text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: circle;">
+  <li style="margin-left: 0px; text-indent: 0px" class="rvps33"><span class="rvts45">No questionnaire has been completed, please wait for the Trainee to complete their questionnaire.</span></li>
+ </ul>
+</ul>
+<p class="rvps28"><span class="rvts45"><br/></span></p>
+<p class="rvps2"><span class="rvts21"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps28"><span class="rvts44"></span><span class="rvts44"></span></p>
+<p class="rvps4" style="clear: both;"><span class="rvts11">Created with the Personal Edition of HelpNDoc: </span><a class="rvts12" href="https://www.helpndoc.com/feature-tour/create-help-files-for-the-qt-help-framework">Create help files for the Qt Help Framework</a></p>
+
+            </div>
+            
+            <div id="topic_footer"><div id="topic_footer_content">Copyright &copy; &lt;Dates&gt; by &lt;Authors&gt;. All Rights Reserved.</div></div>
+        </div>  <!-- /#topic-content -->
+    </article>
+
+    <footer></footer>
+
+  </div>  <!-- /#main -->
+
+  <div class="mask" data-toggle="sm-nav-expanded"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="hndModal" tabindex="-1" role="dialog" aria-labelledby="hndModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="hndModalLabel"></h4>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary modal-btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Splitter -->
+  <div id="hnd-splitter" style="left: 350px"></div>  
+
+  <!-- Scripts -->
+  <script src="vendors/jquery-3.5.1/jquery.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/bootstrap-3.4.1/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="vendors/markjs-8.11.1/jquery.mark.min.js"></script>
+  <script src="vendors/uri-1.19.2/uri.min.js"></script>
+  <script src="vendors/imageMapResizer-1.0.10/imageMapResizer.min.js"></script>
+  <script src="vendors/headroom-0.11.0/headroom.min.js"></script>
+  <script src="vendors/jstree-3.3.10/jstree.min.js"></script>  
+  <script src="vendors/interactjs-1.9.22/interact.min.js"></script>  
+
+  <!-- HelpNDoc scripts -->
+  <script src="js/polyfill.object.min.js"></script>
+  <script src="_translations.js"></script>
+  <script src="js/hndsd.min.js"></script>
+  <script src="js/hndse.min.js"></script>
+  <script src="js/app.min.js"></script>
+
+  <!-- Init script -->
+  <script>
+    $(function() {
+      // Create the app
+      var app = new Hnd.App();
+      // Update translations
+      hnd_ut(app);
+	  // Instanciate imageMapResizer
+	  imageMapResize();
+	  // Custom JS
+	  
+      // Boot the app
+      app.Boot();
+    });
+  </script>
+
+
+
+</body>
+
+</html>
+
